@@ -1,0 +1,47 @@
+= erb :theme
+= haml :nav_bar
+%html
+	%head
+		%title= "Chen - A Google Proxy"
+	.container
+		.page-header
+			%h1
+				Chen
+				%small
+					a shikigami for Google, named after the famous cute bakeneko
+					%a{href:'http://en.touhouwiki.net/wiki/Chen', target:"_blank"} chen.
+		%h3
+			Intro
+		%p
+			Chen is a simple google proxy for quick-to-setup servers.
+			The sole purpose is for people to setup a google proxy easily.
+			%br
+			Used bootstrap for frontend and sinatra for backend.
+		%h3
+			Intended Users
+		%p
+			Chen is intended for users that live in mainland China to use or setup a google proxy
+		%h3
+			Setup
+		%p
+			Get Ruby and install bundler first; clone this repo and do
+			%pre="bundler install\nruby chen-server.rb"
+			within the repo directory
+		%h3
+			Why is this called 'Chen'?
+		%p
+			See the famous 'cheeeeeen' meme for more info
+		%h3
+			Why is the code so ugly/dirty/not beautiful/etc. ?
+		%p
+			Well Chen is only intended for the author's personal use, so code ugliness... well... yeah...
+		%h3
+			Any Alternitives?
+		%p
+			Try 
+			%a{href:'http://tmd123.com', target:"_blank"} Tmd123 (formerly known as googlestable). 
+			It looks more beautiful and has more features than Chen.
+		%h3
+			License
+		%p
+			MIT License

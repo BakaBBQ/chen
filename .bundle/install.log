@@ -1,0 +1,19 @@
+# Logfile created on 2014-10-04 21:26:15 +0800 by logger.rb/41954
+I, [2014-10-04T21:26:15.340941 #2452]  INFO -- : 0:  daemons (1.1.9) from /Users/Cheryl/.rvm/gems/ruby-2.0.0-p353/specifications/daemons-1.1.9.gemspec
+I, [2014-10-04T21:26:15.341538 #2452]  INFO -- : 0:  eventmachine (1.0.3) from /Users/Cheryl/.rvm/gems/ruby-2.0.0-p353/specifications/eventmachine-1.0.3.gemspec
+I, [2014-10-04T21:26:15.341956 #2452]  INFO -- : 0:  formatador (0.2.5) from /Users/Cheryl/.rvm/gems/ruby-2.0.0-p353/specifications/formatador-0.2.5.gemspec
+I, [2014-10-04T21:26:15.342334 #2452]  INFO -- : 0:  htmlentities (4.3.2) from /Users/Cheryl/.rvm/gems/ruby-2.0.0-p353/specifications/htmlentities-4.3.2.gemspec
+I, [2014-10-04T21:26:15.342672 #2452]  INFO -- : 0:  json (1.8.1) from /Users/Cheryl/.rvm/gems/ruby-2.0.0-p353/specifications/json-1.8.1.gemspec
+I, [2014-10-04T21:26:15.343011 #2452]  INFO -- : 0:  guess_html_encoding (0.0.9) from /Users/Cheryl/.rvm/gems/ruby-2.0.0-p353/specifications/guess_html_encoding-0.0.9.gemspec
+I, [2014-10-04T21:26:15.343352 #2452]  INFO -- : 0:  mini_portile (0.5.2) from /Users/Cheryl/.rvm/gems/ruby-2.0.0-p353/specifications/mini_portile-0.5.2.gemspec
+I, [2014-10-04T21:26:15.343688 #2452]  INFO -- : 0:  nokogiri (1.6.1) from /Users/Cheryl/.rvm/gems/ruby-2.0.0-p353/specifications/nokogiri-1.6.1.gemspec
+I, [2014-10-04T21:26:15.344029 #2452]  INFO -- : 0:  ruby-readability (0.7.0) from /Users/Cheryl/.rvm/gems/ruby-2.0.0-p353/specifications/ruby-readability-0.7.0.gemspec
+I, [2014-10-04T21:26:15.344369 #2452]  INFO -- : 0:  trollop (1.16.2) from /Users/Cheryl/.rvm/gems/ruby-2.0.0-p353/specifications/trollop-1.16.2.gemspec
+I, [2014-10-04T21:26:15.344715 #2452]  INFO -- : 0:  google (1.0.10) from /Users/Cheryl/.rvm/gems/ruby-2.0.0-p353/specifications/google-1.0.10.gemspec
+I, [2014-10-04T21:26:15.345053 #2452]  INFO -- : 0:  tilt (1.4.1) from /Users/Cheryl/.rvm/gems/ruby-2.0.0-p353/specifications/tilt-1.4.1.gemspec
+I, [2014-10-04T21:26:15.345415 #2452]  INFO -- : 0:  haml (4.0.5) from /Users/Cheryl/.rvm/gems/ruby-2.0.0-p353/specifications/haml-4.0.5.gemspec
+I, [2014-10-04T21:26:15.345734 #2452]  INFO -- : 0:  rack (1.5.2) from /Users/Cheryl/.rvm/gems/ruby-2.0.0-p353/specifications/rack-1.5.2.gemspec
+I, [2014-10-04T21:26:15.346058 #2452]  INFO -- : 0:  rack-protection (1.5.3) from /Users/Cheryl/.rvm/gems/ruby-2.0.0-p353/specifications/rack-protection-1.5.3.gemspec
+I, [2014-10-04T21:26:15.346379 #2452]  INFO -- : 0:  sinatra (1.4.5) from /Users/Cheryl/.rvm/gems/ruby-2.0.0-p353/specifications/sinatra-1.4.5.gemspec
+I, [2014-10-04T21:26:15.346699 #2452]  INFO -- : 0:  thin (1.6.2) from /Users/Cheryl/.rvm/gems/ruby-2.0.0-p353/specifications/thin-1.6.2.gemspec
+I, [2014-10-04T21:26:15.347006 #2452]  INFO -- : 0:  bundler (1.5.1) from /Users/Cheryl/.rvm/gems/ruby-2.0.0-p353@global/specifications/bundler-1.5.1.gemspec

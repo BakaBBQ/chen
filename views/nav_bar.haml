@@ -1,0 +1,14 @@
+%nav{class: 'navbar navbar-default navbar-fixed-top', role: 'navigation'}
+	.container
+		.navbar-header
+			%a{class: 'navbar-brand', href: '/'}
+				Chen
+		%p{class:'navbar-text navbar-right'}
+			Powered by Google
+		%form{class:'navbar-form navbar-left'}
+			- default_input = @current_str ? @current_str : ""
+			%input{type: 'text', class: 'form-control', placeholder:'Search via Google', value: default_input, id: 'search_text'}
+			%button{type:'button', class: 'btn btn-default', id: 'search_button'}
+				Submit
+%script{src:'nav_bar_js.js'}
+	
