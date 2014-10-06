@@ -2,7 +2,9 @@ require 'google'
 
 require 'erb'
 require 'open-uri'
+require 'CGI'
 
+require_relative 'config'
 module Chen; end
 
 class String
@@ -47,16 +49,16 @@ end
 class Chen::RemoteQuery
   attr_accessor  :default_host
   def default_host
-    return @default_host || 'http://haruhi.socket.so:4567'
+    return @default_host || CHEN_CONFIG.default_host
   end
   
   def raw_query(url)
-    url = url.gsub(" ", '%20')
     content = open url
     return content.read
   end
   
   def query_with_params(host, keyword, page_number = 1, size = 8)
+    keyword = CGI::escape(keyword)
     if(default_host && host.empty?)
       host = default_host
     end
