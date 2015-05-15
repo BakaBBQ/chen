@@ -91,8 +91,25 @@ class Chen::Google < Google
       end
       
       results = query(str, page_number, size)
-      doc = ERB.new(Chen::Template)
-      return doc.result(binding)
+      return results_to_hash(results).to_json
+      #doc = ERB.new(Chen::Template)
+      #return doc.result(binding)
+    end
+    
+    def results_to_hash(results)
+      query_results = results.map do |r|
+        {
+          "title" => r.title,
+          "url" => r.url,
+          "desc" => r.desc,
+          "number" => r.number,
+        }
+      end
+      
+      hash  = {
+        "estimated_results" => results.estimated,
+        "query_results" => query_results
+      }
     end
   end
   
