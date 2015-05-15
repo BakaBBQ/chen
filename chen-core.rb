@@ -4,6 +4,8 @@ require 'erb'
 require 'open-uri'
 require 'CGI'
 
+require 'json'
+
 require_relative 'config'
 module Chen; end
 
@@ -27,9 +29,9 @@ Chen::Template = <<HERE
       "query_results": [
   		<%results.each do |r|%>
   		{
-  			"title": 	"<%=r.title%>",
-  			"url":		"<%=r.url%>",
-  			"desc":		"<%=r.desc%>",
+  			"title": 	"<%=r.title.to_json%>",
+  			"url":		"<%=r.url.to_json%>",
+  			"desc":		"<%=r.desc.to_json%>",
   			"number":	"<%=r.number%>"
   		}
   		<%unless r == results.last%>
